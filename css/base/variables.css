@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #173f3a;
+  --color-primary-dark: #102f2c;
+  --color-accent: #f4b942;
+  --color-secondary: #e87962;
+  --color-background: #fff8eb;
+  --color-surface: #ffffff;
+  --color-text: #263332;
+  --color-text-light: #687371;
+  --font-heading: 'Fredoka', sans-serif;
+  --font-body: 'Nunito Sans', sans-serif;
+}
