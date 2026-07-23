@@ -32,9 +32,14 @@
         }
     }
 
-    #home-cat-hero {    
-        height: 23vw;
+    #home-cat-hero {
+        width: min(42vw, 520px);
+        aspect-ratio: 1;
+        flex-shrink: 0;
+        border: 6px solid var(--color-surface);
+        border-radius: 42% 18% 42% 22%;
+        object-fit: cover;
+        box-shadow: 0 24px 60px rgb(23 63 58 / 15%);
 
-        border-radius: 40% 10% 40% 40%;
     }
 }
