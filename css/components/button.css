@@ -5,18 +5,23 @@ button {
 }
 
 .cta-button {
-    padding: 0.6rem 1.5rem;
+    padding: .8rem 1.5rem;
     background-color: var(--color-primary);
     color: var(--color-surface);
 
     font-family: var(--font-body);
     font-weight: 700;
 
-    border-radius: 5px;
+    border-radius: 12px;
 
     transition: background-color .2s ease-out;
 
     &:hover {
         background-color: var(--color-primary-dark);
+    }
+
+    &:focus-visible {
+        outline: 3px solid var(--color-accent);
+        outline-offset: 3px;
     }
 }
