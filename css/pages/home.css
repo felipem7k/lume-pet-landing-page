@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-    height: 100%;
+    min-height: calc(100svh - 125px);
 
     #home-cta {
         display: flex;
@@ -26,7 +26,7 @@
     }
 
     #home-cat-hero {    
-        height: 55%;
+        height: 23vw;
 
         border-radius: 40% 10% 40% 40%;
     }
