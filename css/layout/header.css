@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2.5rem;
+
+    img {
+        height: 60px;
+    }
+
+    nav {
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+
+            li {
+                a {
+                    font-family: var(--font-family-secondary);
+                    font-weight: 600;
+                    color: var(--color-text);
+                    transition: all .3s ease-in-out;
+
+                    &:hover {
+                        color: var(--color-text-light);
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-button {
+        padding: .6rem 1.5rem;
+        border-radius: 5px;
+        background-color: var(--color-primary);
+        color: var(--color-surface);
+        font-family: var(--font-body);
+        font-weight: 700;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            background-color: var(--color-primary-dark);
+        }
+    }
+}

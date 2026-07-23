@@ -4,3 +4,5 @@
 @import "./base/reset.css";
 @import "./base/typography.css";
 @import "./base/globals.css";
+
+@import "./layout/header.css";
