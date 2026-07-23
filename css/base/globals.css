@@ -10,3 +10,7 @@ a {
 main {
     height: 86vh;
 }
+
+.highlight {
+    color: var(--color-accent);
+}
