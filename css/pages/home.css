@@ -1,6 +1,7 @@
 #home {
     display: flex;
     align-items: center;
+    gap: 2rem;
     height: 100%;
 
     #home-cta {
@@ -8,7 +9,6 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 1rem;
-        max-width: 650px;
 
         h1 {
             font-size: 4rem;
@@ -23,5 +23,11 @@
             padding: .8rem 1.5rem;
             font-size: 1.2rem;
         }
+    }
+
+    #home-cat-hero {    
+        height: 55%;
+
+        border-radius: 40% 10% 40% 40%;
     }
 }
