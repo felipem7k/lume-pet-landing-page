@@ -11,12 +11,17 @@
         gap: 1rem;
 
         h1 {
-            font-size: 4rem;
-            line-height: 1.2;
+            max-width: 17ch;
+            color: var(--color-primary);
+            font-size: clamp(2.6rem, 5vw, 4.5rem);
+            line-height: 1.05;
         }
 
         p {
+            max-width: 48ch;
+            color: var(--color-text-light);
             font-size: 1.1rem;
+            line-height: 1.7;
         }
 
         a {
