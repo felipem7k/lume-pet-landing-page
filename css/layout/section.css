@@ -1,3 +1,11 @@
 section {
-    padding: 2rem 20vw;
+    width: min(1200px, calc(100% - 3rem));
+    margin-inline: auto;
+    padding-block: 2rem;
+}
+
+@media (max-width: 768px) {
+    section {
+        width: min(100% - 2rem, 1200px);
+    }
 }
