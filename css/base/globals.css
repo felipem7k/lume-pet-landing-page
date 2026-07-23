@@ -8,7 +8,7 @@ a {
 }
 
 main {
-    min-height: calc(100svh - 125px);
+    min-height: calc(100dvh - 60px);
 }
 
 .highlight {
