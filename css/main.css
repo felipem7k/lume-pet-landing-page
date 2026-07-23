@@ -6,3 +6,8 @@
 @import "./base/globals.css";
 
 @import "./layout/header.css";
+@import "./layout/section.css";
+
+@import "./components/button.css";
+
+@import "./pages/home.css";
