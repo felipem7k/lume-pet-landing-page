@@ -4,8 +4,10 @@
     display: grid;
     padding: 2rem 3rem;
     box-sizing: border-box;
+    overflow: hidden;
     gap: 0rem;
-    grid-template-areas: 
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 3.7fr);
+    grid-template-areas:
         "dog-img dog-img about-text"
         "dog-img dog-img about-text"
         "dog-img dog-img about-stats";
@@ -14,11 +16,13 @@
     justify-content: center;
 
     img {
-        height: min(100%, 600px);
+        height: auto;
+        max-height: 100%;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
+        object-position: bottom;
         grid-area: dog-img;
-        align-self: flex-end;
+        align-self: end;
         margin-bottom: -2rem;
     }
 
@@ -68,6 +72,64 @@
                 line-height: 1.7;
                 text-align: center;
             }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    #about {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "about-text"
+            "about-stats"
+            "dog-img";
+        padding: 1.5rem;
+        gap: 1.5rem;
+
+        img {
+            width: min(100%, 340px);
+            height: auto;
+            max-height: none;
+            justify-self: center;
+            margin-bottom: -1.5rem;
+        }
+
+        #about-text {
+            padding: 0;
+            text-align: center;
+
+            h2 {
+                max-width: none;
+                margin-inline: auto;
+            }
+
+            p {
+                text-align: left;
+            }
+        }
+
+        #about-stats {
+            flex-direction: column;
+            padding: 0 0 .5rem;
+
+            .about-stats__item {
+                flex-direction: row;
+                justify-content: center;
+                gap: .5rem;
+                padding: .8rem 1rem;
+
+                dt {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    #about {
+        #about-text h2 {
+            font-size: clamp(1.75rem, 8vw, 2.25rem);
         }
     }
 }
