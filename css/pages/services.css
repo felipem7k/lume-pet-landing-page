@@ -1,0 +1,48 @@
+#services {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-block: 15vh;
+
+    h2 {
+        font-size: clamp(2rem, 5vw, 3rem);
+        color: var(--color-primary);
+        margin-bottom: 1.5rem;
+    }
+
+    * > p {
+        font-size: 1rem;
+        line-height: 1.2;
+        color: var(--color-text-light);
+    }
+
+    #services_cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: center;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 1rem;
+            justify-content: space-between;
+            flex: 1 1 250px;
+            max-width: 400px;
+            min-width: min(250px, 100%);
+
+            h3 {
+                font-size: 1.4rem;
+                color: var(--color-primary);
+            }
+
+            p {
+                font-size: .9rem;
+                line-height: 1.8;
+                color: var(--color-text-light);
+            }
+        }
+    }
+}
