@@ -3,6 +3,7 @@
     background-color: var(--color-primary);
     display: grid;
     padding: 2rem 3rem;
+    margin: 15vh auto;
     box-sizing: border-box;
     overflow: hidden;
     gap: 0rem;
