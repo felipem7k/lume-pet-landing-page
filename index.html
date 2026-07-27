@@ -126,6 +126,51 @@
                 </li>
             </ul>
         </section>
+        <section id="contact">
+            <div id="contact_text">
+                <h2>Vamos cuidar do seu pet?</h2>
+                <p>Fale com a equipe da Lume Pet para tirar dúvidas, conhecer melhor nossos serviços ou agendar um atendimento. Preencha o formulário e entraremos em contato o mais breve possível.</p>
+            </div>
+            <div id="contact_form">
+                <form>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" placeholder="Digite seu nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite seu melhor e-mail" required>
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" placeholder="Digite seu telefone" required>
+                    <label for="pet-name">Nome do seu pet</label>
+                    <input type="text" id="pet-name" placeholder="Nome do seu pet" required>
+                    <select name="service-type" id="service-type" required>
+                        <option disabled selected>Selecione o serviço</option>
+                        <option value="banho_tosa">Banho e Tosa</option>
+                        <option value="consulta">Consulta Veterinária</option>
+                        <option value="produtos">Produtos para seu pet</option>
+                    </select>
+                    <textarea placeholder="Mensagem" required></textarea>
+                    <button type="submit" class="cta-button">Enviar</button>
+                </form>
+                <table id="contact_form-infos">
+                    <caption>Informações de contato</caption>
+                    <tr>
+                        <th scope="row">Telefone</th>
+                        <td><a href="tel:+5511999999999">(11) 99999-9999</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">E-mail</th>
+                        <td><a href="mailto:contato@lumepet.com.br">contato@lumepet.com.br</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Endereço</th>
+                        <td>Rua dos Animais, 123 - Bairro Pet, Cidade SP</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Horário de atendimento</th>
+                        <td>Segunda a sexta: 8h às 18h<br>Sábado: 9h às 14h<br>Domingo: Fechado</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
     </main>
 
     <script src="js/header.js"></script>
