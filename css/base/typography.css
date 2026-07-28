@@ -34,3 +34,8 @@ h4 {
     font-size: clamp(2rem, 5vw, 3rem);
     line-height: 1.05;
 }
+
+.paragraph {
+    font-size: 1rem;
+    line-height: 1.7;
+}
