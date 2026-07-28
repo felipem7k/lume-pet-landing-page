@@ -5,6 +5,9 @@
   --color-secondary: #e87962;
   --color-background: #fff8eb;
   --color-surface: #ffffff;
+  --color-surface-hover: #fdfdfd;
+  --color-border: #e0e0e0;
+  --color-border-soft: #f0f0f0;
   --color-text: #263332;
   --color-text-light: #687371;
   --font-heading: 'Fredoka', sans-serif;
