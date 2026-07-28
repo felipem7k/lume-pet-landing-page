@@ -133,21 +133,35 @@
             </div>
             <div id="contact_form">
                 <form>
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" placeholder="Digite seu nome" required>
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" placeholder="Digite seu melhor e-mail" required>
-                    <label for="phone">Telefone</label>
-                    <input type="tel" id="phone" placeholder="Digite seu telefone" required>
-                    <label for="pet-name">Nome do seu pet</label>
-                    <input type="text" id="pet-name" placeholder="Nome do seu pet" required>
-                    <select name="service-type" id="service-type" required>
-                        <option disabled selected>Selecione o serviço</option>
-                        <option value="banho_tosa">Banho e Tosa</option>
-                        <option value="consulta">Consulta Veterinária</option>
-                        <option value="produtos">Produtos para seu pet</option>
-                    </select>
-                    <textarea placeholder="Mensagem" required></textarea>
+                    <div class="form-item">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Digite seu melhor e-mail" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone" placeholder="Digite seu telefone" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="pet-name">Nome do seu pet</label>
+                        <input type="text" id="pet-name" placeholder="Nome do seu pet" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="service-type">Serviço desejado</label>
+                        <select name="service-type" id="service-type" required>
+                            <option value="" disabled selected>Selecione o serviço</option>
+                            <option value="banho_tosa">Banho e Tosa</option>
+                            <option value="consulta">Consulta Veterinária</option>
+                            <option value="produtos">Produtos para seu pet</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <label for="message">Mensagem</label>
+                        <textarea placeholder="Mensagem" id="message" name="message" required></textarea>
+                    </div>
                     <button type="submit" class="cta-button">Enviar</button>
                 </form>
                 <table id="contact_form-infos">
