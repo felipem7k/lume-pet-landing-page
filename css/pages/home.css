@@ -37,13 +37,32 @@
         }
     }
 
-    #home-cat-hero {
-        display: block;
+    #home-hero {
+        position: relative;
         width: 100%;
         max-width: 520px;
+        justify-self: end;
+    }
+
+    #home-hero__glow {
+        position: absolute;
+        top: -10%;
+        right: -12%;
+        width: 55%;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background: radial-gradient(circle, var(--color-secondary) 0%, transparent 70%);
+        opacity: .45;
+        z-index: 0;
+    }
+
+    #home-cat-hero {
+        position: relative;
+        z-index: 1;
+        display: block;
+        width: 100%;
         height: auto;
         aspect-ratio: 1;
-        justify-self: end;
         box-sizing: border-box;
         border: 6px solid var(--color-surface);
         border-radius: 42% 18% 42% 22%;
@@ -84,7 +103,7 @@
             }
         }
 
-        #home-cat-hero {
+        #home-hero {
             width: min(100%, 420px);
             justify-self: center;
         }
