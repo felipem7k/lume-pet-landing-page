@@ -1,4 +1,4 @@
-import { validateEmail, validateName, validatePhone } from "../utils/validation.js";
+import { validateEmail, validateMessage, validateName, validatePhone } from "../utils/validation.js";
 
 export default function initContactForm() {
     const form = document.getElementById('contact_form-form');
@@ -39,6 +39,16 @@ export default function initContactForm() {
 
         if (!validateName(petName)) {
             alert('Por favor, insira um nome de pet válido (apenas letras e espaços, entre 3 e 50 caracteres).');
+            return;
+        }
+
+        if (!serviceType) {
+            alert('Por favor, selecione um serviço desejado.');
+            return;
+        }
+
+        if (!validateMessage(message)) {
+            alert('Por favor, insira uma mensagem válida (apenas letras, números e caracteres especiais).');
             return;
         }
 
