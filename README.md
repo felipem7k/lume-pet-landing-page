@@ -4,6 +4,9 @@ Landing page fictícia para um pet shop, desenvolvida como desafio extra do curs
 
 > Cuidado que ilumina.
 
+- **Repositório:** https://github.com/felipem7k/lume-pet-landing-page
+- **Visualizar site:** https://felipem7k.github.io/lume-pet-landing-page/
+
 ## Sobre o projeto
 
 A Lume Pet é uma marca fictícia criada para este desafio, com identidade visual própria (paleta de cores, tipografia e logotipo). A página apresenta a marca, seus serviços e um formulário de contato funcional, construída com HTML, CSS e JavaScript.
