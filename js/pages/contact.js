@@ -1,4 +1,4 @@
-import { validateName } from "../utils/validation.js";
+import { validateEmail, validateName } from "../utils/validation.js";
 
 export default function initContactForm() {
     const form = document.getElementById('contact_form-form');
@@ -24,6 +24,11 @@ export default function initContactForm() {
 
         if (!validateName(name)) {
             alert('Por favor, insira um nome válido (apenas letras e espaços, entre 3 e 50 caracteres).');
+            return;
+        }
+
+        if (!validateEmail(email)) {
+            alert('Por favor, insira um e-mail válido.');
             return;
         }
 

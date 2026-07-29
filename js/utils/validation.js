@@ -6,3 +6,8 @@ export function validateName(name) {
     const nameRegex = /^[A-Za-zÀ-ÿ\s]+$/;
     return nameRegex.test(name);
 }
+
+export function validateEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+}
