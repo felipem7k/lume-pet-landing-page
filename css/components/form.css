@@ -17,6 +17,11 @@ form {
         margin-left: .5rem;
     }
 
+    textarea {
+        resize: vertical;
+        max-height: 15rem;
+    }
+
     input, textarea {
         padding: .8rem 1rem;
         border-radius: .8rem;
