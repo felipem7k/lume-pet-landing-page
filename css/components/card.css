@@ -3,5 +3,26 @@
     padding: 1.5rem;
     border-radius: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    .card__icon {
+        display: grid;
+        width: 4.5rem;
+        height: 4.5rem;
+        flex: 0 0 4.5rem;
+        place-items: center;
+        border: 1px solid var(--color-accent);
+        border-radius: 1.25rem;
+        background-color: var(--color-background);
+        color: var(--color-primary);
+
+        svg {
+            width: 2.75rem;
+            height: 2.75rem;
+            stroke: currentColor;
+            stroke-width: 2.4;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+    }
 }
