@@ -37,6 +37,11 @@ export default function initContactForm() {
             return;
         }
 
+        if (!validateName(petName)) {
+            alert('Por favor, insira um nome de pet válido (apenas letras e espaços, entre 3 e 50 caracteres).');
+            return;
+        }
+
         alert('Formulário enviado com sucesso!');
     });
 }
