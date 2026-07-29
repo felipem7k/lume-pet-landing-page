@@ -1,3 +1,5 @@
+import { validateName } from "../utils/validation.js";
+
 export default function initContactForm() {
     const form = document.getElementById('contact_form-form');
 
@@ -20,5 +22,11 @@ export default function initContactForm() {
             return;
         }
 
+        if (!validateName(name)) {
+            alert('Por favor, insira um nome válido (apenas letras e espaços, entre 3 e 50 caracteres).');
+            return;
+        }
+
+        alert('Formulário enviado com sucesso!');
     });
 }
