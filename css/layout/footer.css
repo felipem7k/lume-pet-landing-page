@@ -11,3 +11,12 @@ footer {
         font-family: var(--font-body);
     }
 }
+
+@media (max-width: 900px) {
+    footer {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        padding: 2rem;
+    }
+}
