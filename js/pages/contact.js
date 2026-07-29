@@ -1,4 +1,4 @@
-import { validateEmail, validateName } from "../utils/validation.js";
+import { validateEmail, validateName, validatePhone } from "../utils/validation.js";
 
 export default function initContactForm() {
     const form = document.getElementById('contact_form-form');
@@ -29,6 +29,11 @@ export default function initContactForm() {
 
         if (!validateEmail(email)) {
             alert('Por favor, insira um e-mail válido.');
+            return;
+        }
+
+        if (!validatePhone(phone)) {
+            alert('Por favor, insira um número de telefone válido.');
             return;
         }
 
