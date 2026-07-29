@@ -21,6 +21,10 @@ O projeto é uma página estática, sem dependências de instalação.
 1. Baixe ou clone os arquivos do projeto.
 2. Abra o arquivo `index.html` diretamente no navegador **ou** use a extensão "Live Server" no VS Code.
 
+## Uso de Inteligência Artificial
+
+Este projeto contou com apoio de IA (ChatGPT) na concepção da marca, na geração das imagens (logo, fotos e ícones SVG) e na seleção de textos criativos (descrições de serviços e parágrafos da página). Todo o código foi escrito manualmente. Detalhes completos em [DOCUMENTACAO.md](DOCUMENTACAO.md#2-uso-de-inteligência-artificial).
+
 ## Documentação
 
 Detalhes completos do projeto — identificação do autor, uso de IA na fase de concepção da marca, identidade visual (cores, tipografia, logotipo) e etapas de desenvolvimento — estão em [DOCUMENTACAO.md](DOCUMENTACAO.md).

@@ -9,7 +9,12 @@
 
 ## 2. Uso de Inteligência Artificial
 
-Antes de iniciar o desenvolvimento, utilizei uma IA (ChatGPT) como ferramenta de apoio **exclusivamente para a fase de concepção da marca** — brainstorm de nome, escrita da biografia e definição da identidade visual (paleta de cores, tipografia e diretrizes de estilo).
+Utilizei uma IA (ChatGPT) como ferramenta de apoio nas seguintes frentes:
+
+- **Concepção da marca:** brainstorm de nome, escrita da biografia e definição da identidade visual (paleta de cores, tipografia e diretrizes de estilo).
+- **Geração de imagens:** a logo (`lume-pet-logo.webp`), as imagens `cat-hero.webp` e `dog-about.webp`, e os ícones SVG usados na página foram gerados com apoio de IA (ChatGPT).
+- **Seleção de textos criativos:** apoio na escrita/seleção das descrições dos cards de serviços e de outros parágrafos de texto corrido da página.
+- **Redação deste documento:** o texto deste arquivo (DOCUMENTACAO.md) foi gerado com apoio de IA e totalmente revisado por mim.
 
 Conversa completa: https://chatgpt.com/share/6a5fc76a-12e4-83e9-8edd-0b5040590ee7
 
